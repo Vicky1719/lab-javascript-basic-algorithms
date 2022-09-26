@@ -36,10 +36,3 @@ for ( let i = 0; i < hacker1.length; i++) {
  }
   console.log(reverseName)
 
-if (hacker1[0] > hacker2[0]) {
-    console.log (`The driver has the longest name, it has ${hacker1.length} characters`)
-}else if (hacker1[0] < hacker2[0]){
-    console.log(`Ìt seems that the navigator has the longest name, it has ${hacker2.length} characters`)
-} else {
-        console.log(`Wow, you both have equally long names, ${hacker1.length} characteres!`)
-}
